@@ -2,31 +2,109 @@
 <div class="container-fluid sticky-top bg-white shadow-sm <?php echo e(request()->routeIs('home') ? '' : 'mb-5'); ?>">
     <div class="container">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
-            <a href="<?php echo e(route('home')); ?>" class="navbar-brand">
-                <img src="<?php echo e(asset('img/logo.png')); ?>" alt="Medinova Logo" style="height: 50px; width: auto;">
+            <a href="<?php echo e(route('home')); ?>" class="navbar-brand d-flex align-items-center">
+                <img src="<?php echo e(asset('img/logo.png')); ?>" alt="MEAUS Logo" style="height: 50px; width: auto;" class="me-2">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" 
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto py-0">
-                    <a href="<?php echo e(route('home')); ?>" class="nav-item nav-link <?php echo e(request()->routeIs('home') ? 'active' : ''); ?>">Home</a>
-                    <a href="<?php echo e(route('about')); ?>" class="nav-item nav-link <?php echo e(request()->routeIs('about') ? 'active' : ''); ?>">About</a>
-                    <a href="<?php echo e(route('service')); ?>" class="nav-item nav-link <?php echo e(request()->routeIs('service') ? 'active' : ''); ?>">Service</a>
-                    <a href="<?php echo e(route('price')); ?>" class="nav-item nav-link <?php echo e(request()->routeIs('price') ? 'active' : ''); ?>">Pricing</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle <?php echo e(request()->routeIs(['blog', 'blog.detail', 'team', 'testimonial', 'appointment', 'search']) ? 'active' : ''); ?>" data-bs-toggle="dropdown">Pages</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="<?php echo e(route('blog')); ?>" class="dropdown-item">Blog Grid</a>
-                            <a href="<?php echo e(route('blog.detail', 1)); ?>" class="dropdown-item">Blog Detail</a>
-                            <a href="<?php echo e(route('team')); ?>" class="dropdown-item">The Team</a>
-                            <a href="<?php echo e(route('testimonial')); ?>" class="dropdown-item">Testimonial</a>
-                            <a href="<?php echo e(route('appointment')); ?>" class="dropdown-item">Appointment</a>
-                            <a href="<?php echo e(route('search')); ?>" class="dropdown-item">Search</a>
-                        </div>
-                    </div>
-                    <a href="<?php echo e(route('contact')); ?>" class="nav-item nav-link <?php echo e(request()->routeIs('contact') ? 'active' : ''); ?>">Contact</a>
-                </div>
+                <ul class="navbar-nav ms-auto py-0">
+                    <!-- 1. HOME -->
+                    <li class="nav-item">
+                        <a href="<?php echo e(route('home')); ?>" 
+                           class="nav-link <?php echo e(request()->routeIs('home') ? 'active' : ''); ?>"
+                           aria-current="<?php echo e(request()->routeIs('home') ? 'page' : 'false'); ?>">Home</a>
+                    </li>
+                    
+                    <!-- 2. ABOUT (With Dropdown) -->
+                    <li class="nav-item dropdown">
+                        <a href="#" 
+                           class="nav-link dropdown-toggle <?php echo e(request()->routeIs('about') || request()->is('about*') ? 'active' : ''); ?>" 
+                           role="button" 
+                           data-bs-toggle="dropdown" 
+                           aria-expanded="false"
+                           aria-haspopup="true"
+                           aria-controls="aboutDropdown">
+                            About
+                        </a>
+                        <ul class="dropdown-menu m-0" id="aboutDropdown">
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-info-circle text-primary me-2"></i>History & Mission</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-bullseye text-primary me-2"></i>Our Goals</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-users text-primary me-2"></i>Founding Members</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- 3. LEADERSHIP (With Dropdown) -->
+                    <li class="nav-item dropdown">
+                        <a href="#" 
+                           class="nav-link dropdown-toggle <?php echo e(request()->is('leadership*') ? 'active' : ''); ?>" 
+                           role="button" 
+                           data-bs-toggle="dropdown" 
+                           aria-expanded="false"
+                           aria-haspopup="true"
+                           aria-controls="leadershipDropdown">
+                            Leadership
+                        </a>
+                        <ul class="dropdown-menu m-0" id="leadershipDropdown">
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-users-cog text-primary me-2"></i>Executive Board</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-sitemap text-primary me-2"></i>Committees</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-user-plus text-primary me-2"></i>New Members</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- 4. SPEAKERS & EVENTS (With Dropdown) -->
+                    <li class="nav-item dropdown">
+                        <a href="#" 
+                           class="nav-link dropdown-toggle <?php echo e(request()->is('speakers*') || request()->is('events*') || request()->is('achievements*') ? 'active' : ''); ?>" 
+                           role="button" 
+                           data-bs-toggle="dropdown" 
+                           aria-expanded="false"
+                           aria-haspopup="true"
+                           aria-controls="speakersEventsDropdown">
+                            Speakers & Events
+                        </a>
+                        <ul class="dropdown-menu m-0" id="speakersEventsDropdown">
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-microphone text-primary me-2"></i>International Speakers</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-calendar text-primary me-2"></i>Events & Participation</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-trophy text-primary me-2"></i>Achievements</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- 5. SPONSORSHIP (No Dropdown) -->
+                    <li class="nav-item">
+                        <a href="#" 
+                           class="nav-link <?php echo e(request()->is('sponsorship*') ? 'active' : ''); ?>">
+                            Sponsorship
+                        </a>
+                    </li>
+                    
+                    <!-- 6. MEDIA (With Dropdown) -->
+                    <li class="nav-item dropdown">
+                        <a href="#" 
+                           class="nav-link dropdown-toggle <?php echo e(request()->is('media*') || request()->is('news*') || request()->is('gallery*') ? 'active' : ''); ?>" 
+                           role="button" 
+                           data-bs-toggle="dropdown" 
+                           aria-expanded="false"
+                           aria-haspopup="true"
+                           aria-controls="mediaDropdown">
+                            Media
+                        </a>
+                        <ul class="dropdown-menu m-0" id="mediaDropdown">
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-newspaper text-primary me-2"></i>News & Updates</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa fa-images text-primary me-2"></i>Gallery</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- 7. CONTACT (No Dropdown) -->
+                    <li class="nav-item">
+                        <a href="<?php echo e(route('contact')); ?>" 
+                           class="nav-link <?php echo e(request()->routeIs('contact') ? 'active' : ''); ?>">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </div>
