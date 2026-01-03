@@ -1,5 +1,5 @@
 <!-- Navbar Start -->
-<div class="container-fluid sticky-top bg-white shadow-sm {{ request()->routeIs('home') ? '' : (request()->routeIs('about') || request()->routeIs('leadership') ? 'mb-0' : 'mb-5') }}">
+<div class="container-fluid sticky-top bg-white shadow-sm {{ request()->routeIs('home') ? '' : (request()->routeIs('about') || request()->routeIs('leadership') || request()->routeIs('speakers-events') ? 'mb-0' : 'mb-5') }}">
     <div class="container">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
             <a href="{{ route('home') }}" class="navbar-brand d-flex align-items-center">
@@ -57,7 +57,7 @@
                     <!-- 4. SPEAKERS & EVENTS (With Dropdown) -->
                     <li class="nav-item dropdown">
                         <a href="#" 
-                           class="nav-link dropdown-toggle {{ request()->is('speakers*') || request()->is('events*') || request()->is('achievements*') ? 'active' : '' }}" 
+                           class="nav-link dropdown-toggle {{ request()->routeIs('speakers-events') || request()->is('speakers*') || request()->is('events*') || request()->is('achievements*') ? 'active' : '' }}" 
                            role="button" 
                            data-bs-toggle="dropdown" 
                            aria-expanded="false"
@@ -66,9 +66,9 @@
                             Speakers & Events
                         </a>
                         <ul class="dropdown-menu m-0" id="speakersEventsDropdown">
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-microphone text-primary me-2"></i>International Speakers</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-calendar text-primary me-2"></i>Events & Participation</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-trophy text-primary me-2"></i>Achievements</a></li>
+                            <li><a class="dropdown-item" href="{{ route('speakers-events') }}#international-speakers"><i class="fa fa-microphone text-primary me-2"></i>International Speakers</a></li>
+                            <li><a class="dropdown-item" href="{{ route('speakers-events') }}#events-participation"><i class="fa fa-calendar text-primary me-2"></i>Events & Participation</a></li>
+                            <li><a class="dropdown-item" href="{{ route('speakers-events') }}#achievements"><i class="fa fa-trophy text-primary me-2"></i>Achievements</a></li>
                         </ul>
                     </li>
                     
