@@ -10,7 +10,7 @@
             <div class="col-lg-8 text-center text-lg-start">
                 <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5"
                     style="border-color: rgba(256, 256, 256, .3) !important;">Welcome To MEAUS</h5>
-                <h1 class="display-5 text-white mb-md-4">Middle East Africa Uveitis Society</h1>
+                
                 <h1 class="display-5 text-white mb-md-4">Advancing Education, Research, and Collaboration in Uveitis and Ocular Inflammation</h1>
                 <div class="pt-2">
                     <a href="" class="btn btn-light rounded-pill py-md-3 px-md-5 mx-2">Learn More</a>
@@ -29,43 +29,39 @@
         <div class="row gx-5">
             <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded" src="<?php echo e(asset('img/about.jpg')); ?>"
+                    <img class="position-absolute w-100 h-100 rounded" src="<?php echo e(asset('img/about.png')); ?>"
                         style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-7">
                 <div class="mb-4">
-                    <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">About Us</h5>
-                    <h1 class="display-4">Best Medical Care For Yourself and Your Family</h1>
+                    <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">About MEAUS</h5>
+                    <h1 class="display-4">Middle East Africa Uveitis Society</h1>
                 </div>
-                <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor
-                    voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum
-                    et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur
-                    takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore.
-                    Amet erat amet et magna</p>
+                <p>MEAUS is a non-profit independent scientific society under the umbrella of MEACO, dedicated to the study and advancement of uveitis in the Middle East. Founded in June 2024 by leading specialists, our mission is to improve patient care through collaboration, education, and research.</p>
                 <div class="row g-3 pt-3">
                     <div class="col-sm-3 col-6">
                         <div class="bg-light text-center rounded-circle py-4">
-                            <i class="fa fa-3x fa-user-md text-primary mb-3"></i>
-                            <h6 class="mb-0">Qualified<small class="d-block text-primary">Doctors</small></h6>
+                            <i class="fa fa-3x fa-globe-africa text-primary mb-3"></i>
+                            <h6 class="mb-0">Regional<small class="d-block text-primary">Coverage</small></h6>
                         </div>
                     </div>
                     <div class="col-sm-3 col-6">
                         <div class="bg-light text-center rounded-circle py-4">
-                            <i class="fa fa-3x fa-procedures text-primary mb-3"></i>
-                            <h6 class="mb-0">Emergency<small class="d-block text-primary">Services</small></h6>
+                            <i class="fa fa-3x fa-graduation-cap text-primary mb-3"></i>
+                            <h6 class="mb-0">Expert<small class="d-block text-primary">Education</small></h6>
                         </div>
                     </div>
                     <div class="col-sm-3 col-6">
                         <div class="bg-light text-center rounded-circle py-4">
-                            <i class="fa fa-3x fa-microscope text-primary mb-3"></i>
-                            <h6 class="mb-0">Accurate<small class="d-block text-primary">Testing</small></h6>
+                            <i class="fa fa-3x fa-hands-helping text-primary mb-3"></i>
+                            <h6 class="mb-0">International<small class="d-block text-primary">Collaboration</small></h6>
                         </div>
                     </div>
                     <div class="col-sm-3 col-6">
                         <div class="bg-light text-center rounded-circle py-4">
-                            <i class="fa fa-3x fa-ambulance text-primary mb-3"></i>
-                            <h6 class="mb-0">Free<small class="d-block text-primary">Ambulance</small></h6>
+                            <i class="fa fa-3x fa-calendar-check text-primary mb-3"></i>
+                            <h6 class="mb-0">Annual<small class="d-block text-primary">Symposium</small></h6>
                         </div>
                     </div>
                 </div>
