@@ -1,5 +1,5 @@
 <!-- Navbar Start -->
-<div class="container-fluid sticky-top bg-white shadow-sm {{ request()->routeIs('home') ? '' : 'mb-5' }}">
+<div class="container-fluid sticky-top bg-white shadow-sm {{ request()->routeIs('home') ? '' : (request()->routeIs('about') ? 'mb-0' : 'mb-5') }}">
     <div class="container">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
             <a href="{{ route('home') }}" class="navbar-brand d-flex align-items-center">
@@ -30,9 +30,9 @@
                             About
                         </a>
                         <ul class="dropdown-menu m-0" id="aboutDropdown">
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-info-circle text-primary me-2"></i>History & Mission</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-bullseye text-primary me-2"></i>Our Goals</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-users text-primary me-2"></i>Founding Members</a></li>
+                            <li><a class="dropdown-item" href="{{ route('about') }}#history-section"><i class="fa fa-info-circle text-primary me-2"></i>History & Mission</a></li>
+                            <li><a class="dropdown-item" href="{{ route('about') }}#goals-section"><i class="fa fa-bullseye text-primary me-2"></i>Our Goals</a></li>
+                            <li><a class="dropdown-item" href="{{ route('about') }}#founders-section"><i class="fa fa-users text-primary me-2"></i>Founding Members</a></li>
                         </ul>
                     </li>
                     
