@@ -149,7 +149,7 @@
                 </div>
                 <p class="text-white mb-5">Support our mission to advance uveitis care across the Middle East and Africa. Explore sponsorship opportunities for our 2026 Doha Symposium and join us in making a meaningful impact on ocular inflammation research and education.</p>
                 <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="#"><i class="fa fa-download me-2"></i>Download Sponsorship Prospectus</a>
-                <a class="btn btn-outline-dark rounded-pill py-3 px-5" href="{{ route('contact') }}">Contact Us</a>
+                <a class="btn btn-outline-dark rounded-pill py-3 px-5 mt-2" href="{{ route('contact') }}">Contact Us</a>
             </div>
             <div class="col-lg-6">
                 <div class="bg-white text-center rounded p-5">
