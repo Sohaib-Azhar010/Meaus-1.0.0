@@ -1,5 +1,5 @@
 <!-- Navbar Start -->
-<div class="container-fluid sticky-top bg-white shadow-sm {{ request()->routeIs('home') ? '' : (request()->routeIs('about') || request()->routeIs('leadership') || request()->routeIs('speakers-events') ? 'mb-0' : 'mb-5') }}">
+<div class="container-fluid sticky-top bg-white shadow-sm {{ request()->routeIs('home') ? '' : (request()->routeIs('about') || request()->routeIs('leadership') || request()->routeIs('speakers-events') || request()->routeIs('sponsorship') ? 'mb-0' : 'mb-5') }}">
     <div class="container">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
             <a href="{{ route('home') }}" class="navbar-brand d-flex align-items-center">
@@ -74,8 +74,8 @@
                     
                     <!-- 5. SPONSORSHIP (No Dropdown) -->
                     <li class="nav-item">
-                        <a href="#" 
-                           class="nav-link {{ request()->is('sponsorship*') ? 'active' : '' }}">
+                        <a href="{{ route('sponsorship') }}" 
+                           class="nav-link {{ request()->routeIs('sponsorship') || request()->is('sponsorship*') ? 'active' : '' }}">
                             Sponsorship
                         </a>
                     </li>
