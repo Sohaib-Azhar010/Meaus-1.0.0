@@ -1,5 +1,5 @@
 <!-- Navbar Start -->
-<div class="container-fluid sticky-top bg-white shadow-sm {{ request()->routeIs('home') ? '' : (request()->routeIs('about') ? 'mb-0' : 'mb-5') }}">
+<div class="container-fluid sticky-top bg-white shadow-sm {{ request()->routeIs('home') ? '' : (request()->routeIs('about') || request()->routeIs('leadership') ? 'mb-0' : 'mb-5') }}">
     <div class="container">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
             <a href="{{ route('home') }}" class="navbar-brand d-flex align-items-center">
@@ -39,7 +39,7 @@
                     <!-- 3. LEADERSHIP (With Dropdown) -->
                     <li class="nav-item dropdown">
                         <a href="#" 
-                           class="nav-link dropdown-toggle {{ request()->is('leadership*') ? 'active' : '' }}" 
+                           class="nav-link dropdown-toggle {{ request()->routeIs('leadership') || request()->is('leadership*') ? 'active' : '' }}" 
                            role="button" 
                            data-bs-toggle="dropdown" 
                            aria-expanded="false"
@@ -48,9 +48,9 @@
                             Leadership
                         </a>
                         <ul class="dropdown-menu m-0" id="leadershipDropdown">
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-users-cog text-primary me-2"></i>Executive Board</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-sitemap text-primary me-2"></i>Committees</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-user-plus text-primary me-2"></i>New Members</a></li>
+                            <li><a class="dropdown-item" href="{{ route('leadership') }}#executive-board"><i class="fa fa-users-cog text-primary me-2"></i>Executive Board</a></li>
+                            <li><a class="dropdown-item" href="{{ route('leadership') }}#committees"><i class="fa fa-sitemap text-primary me-2"></i>Committees</a></li>
+                            <li><a class="dropdown-item" href="{{ route('leadership') }}#new-members"><i class="fa fa-user-plus text-primary me-2"></i>New Members</a></li>
                         </ul>
                     </li>
                     
