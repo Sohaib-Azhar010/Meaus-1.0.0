@@ -1,5 +1,5 @@
 <!-- Navbar Start -->
-<div class="container-fluid sticky-top bg-white shadow-sm <?php echo e(request()->routeIs('home') ? '' : (request()->routeIs('about') || request()->routeIs('leadership') || request()->routeIs('speakers-events') || request()->routeIs('sponsorship') ? 'mb-0' : 'mb-5')); ?>">
+<div class="container-fluid sticky-top bg-white shadow-sm <?php echo e(request()->routeIs('home') ? '' : (request()->routeIs('about') || request()->routeIs('leadership') || request()->routeIs('speakers-events') || request()->routeIs('sponsorship') || request()->routeIs('media') ? 'mb-0' : 'mb-5')); ?>">
     <div class="container">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
             <a href="<?php echo e(route('home')); ?>" class="navbar-brand d-flex align-items-center">
@@ -83,7 +83,7 @@
                     <!-- 6. MEDIA (With Dropdown) -->
                     <li class="nav-item dropdown">
                         <a href="#" 
-                           class="nav-link dropdown-toggle <?php echo e(request()->is('media*') || request()->is('news*') || request()->is('gallery*') ? 'active' : ''); ?>" 
+                           class="nav-link dropdown-toggle <?php echo e(request()->routeIs('media') || request()->is('media*') || request()->is('news*') || request()->is('gallery*') ? 'active' : ''); ?>" 
                            role="button" 
                            data-bs-toggle="dropdown" 
                            aria-expanded="false"
@@ -92,8 +92,8 @@
                             Media
                         </a>
                         <ul class="dropdown-menu m-0" id="mediaDropdown">
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-newspaper text-primary me-2"></i>News & Updates</a></li>
-                            <li><a class="dropdown-item" href="#"><i class="fa fa-images text-primary me-2"></i>Gallery</a></li>
+                            <li><a class="dropdown-item" href="<?php echo e(route('media')); ?>#news-updates"><i class="fa fa-newspaper text-primary me-2"></i>News & Updates</a></li>
+                            <li><a class="dropdown-item" href="<?php echo e(route('media')); ?>#gallery"><i class="fa fa-images text-primary me-2"></i>Gallery</a></li>
                         </ul>
                     </li>
                     
