@@ -138,7 +138,7 @@
 <!-- Features End -->
 
 
-<!-- Sponsorship Start -->
+{{-- <!-- Sponsorship Start -->
 <div class="container-fluid bg-primary my-5 py-5">
     <div class="container py-5">
         <div class="row gx-5">
@@ -172,78 +172,38 @@
         </div>
     </div>
 </div>
-<!-- Sponsorship End -->
+<!-- Sponsorship End --> --}}
 
 
 <!-- Upcoming Events Start -->
 <div class="container-fluid py-5">
     <div class="container">
         <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Upcoming Events</h5>
+            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Events</h5>
             <h1 class="display-4">Join Us at Our Next Symposium</h1>
         </div>
-        <div class="owl-carousel price-carousel position-relative" style="padding: 0 45px 45px 45px;">
-            <div class="bg-light rounded text-center">
-                <div class="position-relative">
-                    <img class="img-fluid rounded-top" src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop" alt="Medical conference placeholder">
-                    <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"
-                        style="background: rgba(29, 42, 77, .8);">
-                        <h3 class="text-white">2026 Annual Symposium</h3>
-                        <h1 class="display-4 text-white mb-0">
-                            <small class="align-top fw-normal"
-                                style="font-size: 22px; line-height: 45px;">Doha</small>
-                            <span style="font-size: 48px;">2026</span>
-                        </h1>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <div class="bg-light rounded text-center">
+                    <div class="position-relative">
+                        <img class="img-fluid rounded-top" src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop" alt="Medical conference placeholder">
+                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"
+                            style="background: rgba(29, 42, 77, .8);">
+                            <h3 class="text-white">2026 Annual Symposium</h3>
+                            <h1 class="display-4 text-white mb-0">
+                                <small class="align-top fw-normal"
+                                    style="font-size: 22px; line-height: 45px;">Doha</small>
+                                <span style="font-size: 48px;">2026</span>
+                            </h1>
+                        </div>
                     </div>
-                </div>
-                <div class="text-center py-5">
-                    <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Doha, Qatar</p>
-                    <p><i class="fa fa-calendar-alt text-primary me-2"></i>Annual Symposium</p>
-                    <p><i class="fa fa-users text-primary me-2"></i>International Speakers</p>
-                    <p><i class="fa fa-certificate text-primary me-2"></i>CME Credits Available</p>
-                    <a href="#" class="btn btn-primary rounded-pill py-3 px-5 my-2">Learn More</a>
-                </div>
-            </div>
-            <div class="bg-light rounded text-center">
-                <div class="position-relative">
-                    <img class="img-fluid rounded-top" src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&h=600&fit=crop" alt="Medical education placeholder">
-                    <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"
-                        style="background: rgba(29, 42, 77, .8);">
-                        <h3 class="text-white">Training Programs</h3>
-                        <h1 class="display-4 text-white mb-0">
-                            <small class="align-top fw-normal"
-                                style="font-size: 22px; line-height: 45px;">Expert</small>
-                            <span style="font-size: 48px;">Education</span>
-                        </h1>
+                    <div class="text-center py-5">
+                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Doha, Qatar</p>
+                        <p><i class="fa fa-calendar-alt text-primary me-2"></i>Annual Symposium</p>
+                        <p><i class="fa fa-users text-primary me-2"></i>International Speakers</p>
+                        <p><i class="fa fa-certificate text-primary me-2"></i>CME Credits Available</p>
+                        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 my-2">Learn More</a>
                     </div>
-                </div>
-                <div class="text-center py-5">
-                    <p><i class="fa fa-graduation-cap text-primary me-2"></i>Professional Development</p>
-                    <p><i class="fa fa-book text-primary me-2"></i>Comprehensive Curriculum</p>
-                    <p><i class="fa fa-chalkboard-teacher text-primary me-2"></i>Expert Faculty</p>
-                    <p><i class="fa fa-certificate text-primary me-2"></i>Certification Programs</p>
-                    <a href="#" class="btn btn-primary rounded-pill py-3 px-5 my-2">View Programs</a>
-                </div>
-            </div>
-            <div class="bg-light rounded text-center">
-                <div class="position-relative">
-                    <img class="img-fluid rounded-top" src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop" alt="Research collaboration placeholder">
-                    <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"
-                        style="background: rgba(29, 42, 77, .8);">
-                        <h3 class="text-white">Research Initiatives</h3>
-                        <h1 class="display-4 text-white mb-0">
-                            <small class="align-top fw-normal"
-                                style="font-size: 22px; line-height: 45px;">Global</small>
-                            <span style="font-size: 48px;">Impact</span>
-                        </h1>
-                    </div>
-                </div>
-                <div class="text-center py-5">
-                    <p><i class="fa fa-microscope text-primary me-2"></i>Clinical Research</p>
-                    <p><i class="fa fa-handshake text-primary me-2"></i>International Partnerships</p>
-                    <p><i class="fa fa-chart-line text-primary me-2"></i>Data Collection</p>
-                    <p><i class="fa fa-file-medical text-primary me-2"></i>Publications</p>
-                    <a href="#" class="btn btn-primary rounded-pill py-3 px-5 my-2">Get Involved</a>
                 </div>
             </div>
         </div>
@@ -252,7 +212,7 @@
 <!-- Upcoming Events End -->
 
 
-<!-- International Speakers Start -->
+{{-- <!-- International Speakers Start -->
 <div class="container-fluid py-5">
     <div class="container">
         <div class="text-center mx-auto mb-5" style="max-width: 500px;">
@@ -351,7 +311,7 @@
         </div>
     </div>
 </div>
-<!-- International Speakers End -->
+<!-- International Speakers End --> --}}
 
 
 <!-- Newsletter Start -->

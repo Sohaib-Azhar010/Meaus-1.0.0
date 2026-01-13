@@ -138,112 +138,38 @@
 <!-- Features End -->
 
 
-<!-- Sponsorship Start -->
-<div class="container-fluid bg-primary my-5 py-5">
-    <div class="container py-5">
-        <div class="row gx-5">
-            <div class="col-lg-6 mb-5 mb-lg-0">
-                <div class="mb-4">
-                    <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Partnership</h5>
-                    <h1 class="display-4">Partner With MEAUS</h1>
-                </div>
-                <p class="text-white mb-5">Support our mission to advance uveitis care across the Middle East and Africa. Explore sponsorship opportunities for our 2026 Doha Symposium and join us in making a meaningful impact on ocular inflammation research and education.</p>
-                <a class="btn btn-dark rounded-pill py-3 px-5 me-3" href="#"><i class="fa fa-download me-2"></i>Download Sponsorship Prospectus</a>
-                <a class="btn btn-outline-dark rounded-pill py-3 px-5 mt-2" href="<?php echo e(route('contact')); ?>">Contact Us</a>
-            </div>
-            <div class="col-lg-6">
-                <div class="bg-white text-center rounded p-5">
-                    <div class="mb-4">
-                        <i class="fa fa-4x fa-handshake text-primary mb-3"></i>
-                        <h1 class="mb-4">Become a Sponsor</h1>
-                    </div>
-                    <p class="mb-4">Partner with MEAUS to support groundbreaking research, educational programs, and international collaboration in uveitis care. Your sponsorship helps us advance patient outcomes across the region.</p>
-                    <div class="row g-3 text-start">
-                        <div class="col-12">
-                            <p><i class="fa fa-check-circle text-primary me-2"></i>Visibility at Annual Symposium</p>
-                            <p><i class="fa fa-check-circle text-primary me-2"></i>Recognition in Publications</p>
-                            <p><i class="fa fa-check-circle text-primary me-2"></i>Networking Opportunities</p>
-                            <p><i class="fa fa-check-circle text-primary me-2"></i>Support Research Initiatives</p>
-                        </div>
-                    </div>
-                    <a href="<?php echo e(route('contact')); ?>" class="btn btn-primary w-100 py-3 mt-4">Get in Touch</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Sponsorship End -->
+
 
 
 <!-- Upcoming Events Start -->
 <div class="container-fluid py-5">
     <div class="container">
         <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Upcoming Events</h5>
+            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Events</h5>
             <h1 class="display-4">Join Us at Our Next Symposium</h1>
         </div>
-        <div class="owl-carousel price-carousel position-relative" style="padding: 0 45px 45px 45px;">
-            <div class="bg-light rounded text-center">
-                <div class="position-relative">
-                    <img class="img-fluid rounded-top" src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop" alt="Medical conference placeholder">
-                    <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"
-                        style="background: rgba(29, 42, 77, .8);">
-                        <h3 class="text-white">2026 Annual Symposium</h3>
-                        <h1 class="display-4 text-white mb-0">
-                            <small class="align-top fw-normal"
-                                style="font-size: 22px; line-height: 45px;">Doha</small>
-                            <span style="font-size: 48px;">2026</span>
-                        </h1>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <div class="bg-light rounded text-center">
+                    <div class="position-relative">
+                        <img class="img-fluid rounded-top" src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop" alt="Medical conference placeholder">
+                        <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"
+                            style="background: rgba(29, 42, 77, .8);">
+                            <h3 class="text-white">2026 Annual Symposium</h3>
+                            <h1 class="display-4 text-white mb-0">
+                                <small class="align-top fw-normal"
+                                    style="font-size: 22px; line-height: 45px;">Doha</small>
+                                <span style="font-size: 48px;">2026</span>
+                            </h1>
+                        </div>
                     </div>
-                </div>
-                <div class="text-center py-5">
-                    <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Doha, Qatar</p>
-                    <p><i class="fa fa-calendar-alt text-primary me-2"></i>Annual Symposium</p>
-                    <p><i class="fa fa-users text-primary me-2"></i>International Speakers</p>
-                    <p><i class="fa fa-certificate text-primary me-2"></i>CME Credits Available</p>
-                    <a href="#" class="btn btn-primary rounded-pill py-3 px-5 my-2">Learn More</a>
-                </div>
-            </div>
-            <div class="bg-light rounded text-center">
-                <div class="position-relative">
-                    <img class="img-fluid rounded-top" src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&h=600&fit=crop" alt="Medical education placeholder">
-                    <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"
-                        style="background: rgba(29, 42, 77, .8);">
-                        <h3 class="text-white">Training Programs</h3>
-                        <h1 class="display-4 text-white mb-0">
-                            <small class="align-top fw-normal"
-                                style="font-size: 22px; line-height: 45px;">Expert</small>
-                            <span style="font-size: 48px;">Education</span>
-                        </h1>
+                    <div class="text-center py-5">
+                        <p><i class="fa fa-map-marker-alt text-primary me-2"></i>Doha, Qatar</p>
+                        <p><i class="fa fa-calendar-alt text-primary me-2"></i>Annual Symposium</p>
+                        <p><i class="fa fa-users text-primary me-2"></i>International Speakers</p>
+                        <p><i class="fa fa-certificate text-primary me-2"></i>CME Credits Available</p>
+                        <a href="#" class="btn btn-primary rounded-pill py-3 px-5 my-2">Learn More</a>
                     </div>
-                </div>
-                <div class="text-center py-5">
-                    <p><i class="fa fa-graduation-cap text-primary me-2"></i>Professional Development</p>
-                    <p><i class="fa fa-book text-primary me-2"></i>Comprehensive Curriculum</p>
-                    <p><i class="fa fa-chalkboard-teacher text-primary me-2"></i>Expert Faculty</p>
-                    <p><i class="fa fa-certificate text-primary me-2"></i>Certification Programs</p>
-                    <a href="#" class="btn btn-primary rounded-pill py-3 px-5 my-2">View Programs</a>
-                </div>
-            </div>
-            <div class="bg-light rounded text-center">
-                <div class="position-relative">
-                    <img class="img-fluid rounded-top" src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop" alt="Research collaboration placeholder">
-                    <div class="position-absolute w-100 h-100 top-50 start-50 translate-middle rounded-top d-flex flex-column align-items-center justify-content-center"
-                        style="background: rgba(29, 42, 77, .8);">
-                        <h3 class="text-white">Research Initiatives</h3>
-                        <h1 class="display-4 text-white mb-0">
-                            <small class="align-top fw-normal"
-                                style="font-size: 22px; line-height: 45px;">Global</small>
-                            <span style="font-size: 48px;">Impact</span>
-                        </h1>
-                    </div>
-                </div>
-                <div class="text-center py-5">
-                    <p><i class="fa fa-microscope text-primary me-2"></i>Clinical Research</p>
-                    <p><i class="fa fa-handshake text-primary me-2"></i>International Partnerships</p>
-                    <p><i class="fa fa-chart-line text-primary me-2"></i>Data Collection</p>
-                    <p><i class="fa fa-file-medical text-primary me-2"></i>Publications</p>
-                    <a href="#" class="btn btn-primary rounded-pill py-3 px-5 my-2">Get Involved</a>
                 </div>
             </div>
         </div>
@@ -252,106 +178,7 @@
 <!-- Upcoming Events End -->
 
 
-<!-- International Speakers Start -->
-<div class="container-fluid py-5">
-    <div class="container">
-        <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Our Experts</h5>
-            <h1 class="display-4">International Speakers & Experts</h1>
-        </div>
-        <div class="owl-carousel team-carousel position-relative">
-            <div class="team-item">
-                <div class="row g-0 bg-light rounded overflow-hidden">
-                    <div class="col-12 col-sm-5 h-100">
-                        <img class="img-fluid h-100" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=500&fit=crop" alt="Dr. AbdulAziz Badia - Vitreoretina specialist" style="object-fit: cover;">
-                    </div>
-                    <div class="col-12 col-sm-7 h-100 d-flex flex-column">
-                        <div class="mt-auto p-4">
-                            <h3>Dr. AbdulAziz Badia</h3>
-                            <h6 class="fw-normal fst-italic text-primary mb-4">Vitreoretina Specialist</h6>
-                            <p class="m-0">Leading expert in vitreoretinal surgery and uveitis management, contributing to advanced treatment protocols across the region.</p>
-                        </div>
-                        <div class="d-flex mt-auto border-top p-4">
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#!"><i
-                                    class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#!"><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#!"><i
-                                    class="fa fa-envelope"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="team-item">
-                <div class="row g-0 bg-light rounded overflow-hidden">
-                    <div class="col-12 col-sm-5 h-100">
-                        <img class="img-fluid h-100" src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=500&fit=crop" alt="Dr. Abdulrahman AlBloushi - Ocular Immunology specialist" style="object-fit: cover;">
-                    </div>
-                    <div class="col-12 col-sm-7 h-100 d-flex flex-column">
-                        <div class="mt-auto p-4">
-                            <h3>Dr. Abdulrahman AlBloushi</h3>
-                            <h6 class="fw-normal fst-italic text-primary mb-4">Ocular Immunology</h6>
-                            <p class="m-0">Renowned for research in ocular immunology and winner of Best Rapid Fire Presentation award. Pioneering work in uveitis treatment.</p>
-                        </div>
-                        <div class="d-flex mt-auto border-top p-4">
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#!"><i
-                                    class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#!"><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#!"><i
-                                    class="fa fa-envelope"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="team-item">
-                <div class="row g-0 bg-light rounded overflow-hidden">
-                    <div class="col-12 col-sm-5 h-100">
-                        <img class="img-fluid h-100" src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=400&h=500&fit=crop" alt="Dr. Hassan Al-Dhibi - Uveitis specialist" style="object-fit: cover;">
-                    </div>
-                    <div class="col-12 col-sm-7 h-100 d-flex flex-column">
-                        <div class="mt-auto p-4">
-                            <h3>Dr. Hassan Al-Dhibi</h3>
-                            <h6 class="fw-normal fst-italic text-primary mb-4">Uveitis Specialist</h6>
-                            <p class="m-0">Expert in uveitis diagnosis and management, with extensive experience in complex inflammatory eye diseases and treatment strategies.</p>
-                        </div>
-                        <div class="d-flex mt-auto border-top p-4">
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#!"><i
-                                    class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#!"><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#!"><i
-                                    class="fa fa-envelope"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="team-item">
-                <div class="row g-0 bg-light rounded overflow-hidden">
-                    <div class="col-12 col-sm-5 h-100">
-                        <img class="img-fluid h-100" src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&h=500&fit=crop" alt="Prof. Vishal Gupta - Uveitis Surgery specialist" style="object-fit: cover;">
-                    </div>
-                    <div class="col-12 col-sm-7 h-100 d-flex flex-column">
-                        <div class="mt-auto p-4">
-                            <h3>Prof. Vishal Gupta</h3>
-                            <h6 class="fw-normal fst-italic text-primary mb-4">Uveitis Surgery</h6>
-                            <p class="m-0">Internationally recognized for expertise in uveitis surgery and complex ocular inflammatory conditions, advancing surgical techniques.</p>
-                        </div>
-                        <div class="d-flex mt-auto border-top p-4">
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#!"><i
-                                    class="fab fa-linkedin-in"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-3" href="#!"><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#!"><i
-                                    class="fa fa-envelope"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- International Speakers End -->
+
 
 
 <!-- Newsletter Start -->
