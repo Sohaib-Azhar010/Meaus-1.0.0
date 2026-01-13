@@ -338,53 +338,59 @@
 
 
 <!-- Achievements Start -->
-<div class="container-fluid py-5">
+<div id="achievements" class="container-fluid py-5">
     <div class="container">
         <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Recognition</h5>
-            <h1 class="display-4">Achievements & Recognition</h1>
+            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">International Participations</h5>
+            <h1 class="display-4">International Participations</h1>
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="owl-carousel testimonial-carousel">
+                    <!-- Oman Card -->
                     <div class="testimonial-item text-center">
                         <div class="position-relative mb-5">
-                            <img class="img-fluid rounded-circle mx-auto" src="https://images.unsplash.com/photo-1576086213369-97a306d36557?w=300&h=300&fit=crop" alt="Award ceremony placeholder" style="width: 200px; height: 200px; object-fit: cover;">
+                            <img class="img-fluid rounded-circle mx-auto" src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=300&h=300&fit=crop" alt="MIOC Muscat, Oman" style="width: 200px; height: 200px; object-fit: cover;">
                             <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle"
                                 style="width: 60px; height: 60px;">
-                                <i class="fa fa-award fa-2x text-primary"></i>
+                                <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
                             </div>
                         </div>
-                        <p class="fs-4 fw-normal">Congratulations to <strong>Dr. Abdulrahman AlBloushi</strong> for winning the <strong>Best Rapid Fire Presentation</strong> award. This recognition highlights the excellence and innovation in uveitis research within our society.</p>
+                        <p class="fs-4 fw-normal"><strong>MIOC Muscat, Oman</strong><br><em>November 2024</em></p>
+                        <p class="mb-3">First international participation of MEAUS. Uveitis (MEACOUS) Sessions & Course. Established regional presence in Middle East.</p>
                         <hr class="w-25 mx-auto">
-                        <h3>Best Rapid Fire Presentation</h3>
-                        <h6 class="fw-normal text-primary mb-3">Dr. Abdulrahman AlBloushi</h6>
+                        <h3>MIOC Muscat, Oman</h3>
+                        <h6 class="fw-normal text-primary mb-3">November 2024</h6>
                     </div>
+                    <!-- Egypt Card -->
                     <div class="testimonial-item text-center">
                         <div class="position-relative mb-5">
-                            <img class="img-fluid rounded-circle mx-auto" src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=300&h=300&fit=crop" alt="Executive committee meeting placeholder" style="width: 200px; height: 200px; object-fit: cover;">
+                            <img class="img-fluid rounded-circle mx-auto" src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=300&h=300&fit=crop" alt="EOS Cairo, Egypt" style="width: 200px; height: 200px; object-fit: cover;">
                             <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle"
                                 style="width: 60px; height: 60px;">
-                                <i class="fa fa-users fa-2x text-primary"></i>
+                                <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
                             </div>
                         </div>
-                        <p class="fs-4 fw-normal">MEAUS successfully held its <strong>first executive committee meeting</strong>, marking a significant milestone in our journey to advance uveitis care across the Middle East and Africa region.</p>
+                        <p class="fs-4 fw-normal"><strong>EOS Cairo, Egypt</strong><br><em>May 2025</em></p>
+                        <p class="mb-3">Egyptian Ophthalmology Society Conference. MEACO Courses in Ocular Imaging for Uveitis. Advanced imaging techniques training.</p>
                         <hr class="w-25 mx-auto">
-                        <h3>First Executive Committee</h3>
-                        <h6 class="fw-normal text-primary mb-3">Founding Milestone</h6>
+                        <h3>EOS Cairo, Egypt</h3>
+                        <h6 class="fw-normal text-primary mb-3">May 2025</h6>
                     </div>
+                    <!-- Brazil Card -->
                     <div class="testimonial-item text-center">
                         <div class="position-relative mb-5">
-                            <img class="img-fluid rounded-circle mx-auto" src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=300&h=300&fit=crop" alt="International conference participation placeholder" style="width: 200px; height: 200px; object-fit: cover;">
+                            <img class="img-fluid rounded-circle mx-auto" src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=300&h=300&fit=crop" alt="IOIS Rio de Janeiro, Brazil" style="width: 200px; height: 200px; object-fit: cover;">
                             <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle"
                                 style="width: 60px; height: 60px;">
-                                <i class="fa fa-globe fa-2x text-primary"></i>
+                                <i class="fa fa-map-marker-alt fa-2x text-primary"></i>
                             </div>
                         </div>
-                        <p class="fs-4 fw-normal">MEAUS participated in the <strong>International Ocular Inflammation Society (IOIS) Brazil 2025</strong>, strengthening our global partnerships and showcasing regional expertise in uveitis research and treatment.</p>
+                        <p class="fs-4 fw-normal"><strong>IOIS Rio de Janeiro, Brazil</strong><br><em>June 2025</em></p>
+                        <p class="mb-3">International Ocular Inflammation Society Congress. MEAUS & EUSG collaboration session. Dr. AlBloushi: Best Rapid Fire Presentation award. IUAD project presentation by Prof. Al-Dhibi.</p>
                         <hr class="w-25 mx-auto">
-                        <h3>IOIS Brazil 2025</h3>
-                        <h6 class="fw-normal text-primary mb-3">International Participation</h6>
+                        <h3>IOIS Rio de Janeiro, Brazil</h3>
+                        <h6 class="fw-normal text-primary mb-3">June 2025</h6>
                     </div>
                 </div>
             </div>
