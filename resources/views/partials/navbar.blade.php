@@ -63,7 +63,7 @@
                            aria-expanded="false"
                            aria-haspopup="true"
                            aria-controls="speakersEventsDropdown">
-                            Speakers & Events
+                            Events
                         </a>
                         <ul class="dropdown-menu m-0" id="speakersEventsDropdown">
                             <li><a class="dropdown-item" href="{{ route('speakers-events') }}#international-speakers"><i class="fa fa-microphone text-primary me-2"></i>International Speakers</a></li>
@@ -76,7 +76,7 @@
                     <li class="nav-item">
                         <a href="{{ route('sponsorship') }}" 
                            class="nav-link {{ request()->routeIs('sponsorship') || request()->is('sponsorship*') ? 'active' : '' }}">
-                            Sponsorship
+                            Membership
                         </a>
                     </li>
                     
