@@ -1,5 +1,3 @@
-
-
 <?php $__env->startSection('title', 'Home - MEDINOVA'); ?>
 
 <?php $__env->startSection('content'); ?>
