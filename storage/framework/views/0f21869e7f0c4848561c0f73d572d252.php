@@ -344,33 +344,6 @@
 </div>
 <!-- Founding Members Section End -->
 
-<!-- Ethical Compliance Section Start -->
-<div class="container-fluid bg-light py-5">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-8 mx-auto text-center">
-                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5 mb-4">
-                    <i class="fa fa-shield-alt me-2"></i>Ethical Standards
-                </h5>
-                <div class="bg-white rounded p-5 shadow-sm">
-                    <div class="mb-4">
-                        <i class="fa fa-certificate fa-4x text-primary mb-3"></i>
-                    </div>
-                    <h3 class="mb-3">Ethical Compliance</h3>
-                    <p class="lead mb-4">MEAUS operates in compliance with MedTech Europe's ethical standards for medical education and scientific collaboration.</p>
-                    <div class="bg-primary text-white rounded p-4 d-inline-block">
-                        <h4 class="mb-0">
-                            <i class="fa fa-barcode me-2"></i>EthicalMedTech Badge
-                        </h4>
-                        <h2 class="mb-0 mt-2">EMT-25-07776</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Ethical Compliance Section End -->
-
 <!-- Call to Action Section Start -->
 <div class="container-fluid bg-primary py-5">
     <div class="container py-5">
