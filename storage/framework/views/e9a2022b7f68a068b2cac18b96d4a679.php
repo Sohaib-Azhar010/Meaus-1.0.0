@@ -1,5 +1,3 @@
-
-
 <?php $__env->startSection('title', 'Leadership - MEAUS Executive Board & Committees'); ?>
 <?php $__env->startSection('keywords', 'MEAUS leadership, executive board, committees, uveitis specialists, ophthalmology leadership'); ?>
 <?php $__env->startSection('description', 'Meet the MEAUS leadership team: Executive Board, Committees, and new members guiding uveitis advancement in Middle East and Africa.'); ?>

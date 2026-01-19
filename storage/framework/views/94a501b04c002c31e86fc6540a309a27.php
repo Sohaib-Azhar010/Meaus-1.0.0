@@ -1,16 +1,14 @@
-@extends('layouts.app')
+<?php $__env->startSection('title', 'Speakers & Events - MEAUS International Programs'); ?>
+<?php $__env->startSection('keywords', 'MEAUS speakers, international events, uveitis conferences, ophthalmology speakers, MEAUS achievements'); ?>
+<?php $__env->startSection('description', 'Explore MEAUS international speakers, global events participation, and achievements in uveitis advancement across Middle East and Africa.'); ?>
 
-@section('title', 'Speakers & Events - MEAUS International Programs')
-@section('keywords', 'MEAUS speakers, international events, uveitis conferences, ophthalmology speakers, MEAUS achievements')
-@section('description', 'Explore MEAUS international speakers, global events participation, and achievements in uveitis advancement across Middle East and Africa.')
-
-@section('content')
+<?php $__env->startSection('content'); ?>
 <!-- Breadcrumb Start -->
 <div class="container-fluid pb-3 pt-3 bg-light" style="margin-top: 0px;">
     <div class="container">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb mb-0">
-                <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
+                <li class="breadcrumb-item"><a href="<?php echo e(route('home')); ?>">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Speakers & Events</li>
             </ol>
         </nav>
@@ -19,7 +17,7 @@
 <!-- Breadcrumb End -->
 
 <!-- Page Header/Banner Start -->
-<div class="container-fluid bg-primary py-5 mb-5" style="background: linear-gradient(rgba(29, 42, 77, 0.8), rgba(29, 42, 77, 0.8)), url({{ asset('img/about.png') }}) center center no-repeat; background-size: cover;">
+<div class="container-fluid bg-primary py-5 mb-5" style="background: linear-gradient(rgba(29, 42, 77, 0.8), rgba(29, 42, 77, 0.8)), url(<?php echo e(asset('img/about.png')); ?>) center center no-repeat; background-size: cover;">
     <div class="container py-5">
         <div class="row justify-content-center text-center">
             <div class="col-lg-10">
@@ -70,7 +68,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="team-item bg-light rounded overflow-hidden h-100">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="{{ asset('img/speaker-badia.png') }}" alt="Dr. AbdulAziz Badia" style="height: 350px; object-fit: cover;">
+                        <img class="img-fluid w-100" src="<?php echo e(asset('img/speaker-badia.png')); ?>" alt="Dr. AbdulAziz Badia" style="height: 350px; object-fit: cover;">
                         <div class="position-absolute top-0 end-0 m-3">
                             <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
                                 <i class="fa fa-microphone text-white"></i>
@@ -90,7 +88,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="team-item bg-light rounded overflow-hidden h-100">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="{{ asset('img/speaker-albloushi.png') }}" alt="Dr. Abdulrahman AlBloushi" style="height: 350px; object-fit: cover;">
+                        <img class="img-fluid w-100" src="<?php echo e(asset('img/speaker-albloushi.png')); ?>" alt="Dr. Abdulrahman AlBloushi" style="height: 350px; object-fit: cover;">
                         <div class="position-absolute top-0 end-0 m-3">
                             <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
                                 <i class="fa fa-award text-white"></i>
@@ -110,7 +108,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="team-item bg-light rounded overflow-hidden h-100">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="{{ asset('img/speaker-aldhibi.png') }}" alt="Dr. Hassan Al-Dhibi" style="height: 350px; object-fit: cover;">
+                        <img class="img-fluid w-100" src="<?php echo e(asset('img/speaker-aldhibi.png')); ?>" alt="Dr. Hassan Al-Dhibi" style="height: 350px; object-fit: cover;">
                         <div class="position-absolute top-0 end-0 m-3">
                             <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
                                 <i class="fa fa-user-tie text-white"></i>
@@ -130,7 +128,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="team-item bg-light rounded overflow-hidden h-100">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="{{ asset('img/team-2.jpg') }}" alt="Prof. Bahram Bodagiri" style="height: 350px; object-fit: cover;">
+                        <img class="img-fluid w-100" src="<?php echo e(asset('img/team-2.jpg')); ?>" alt="Prof. Bahram Bodagiri" style="height: 350px; object-fit: cover;">
                         <div class="position-absolute top-0 end-0 m-3">
                             <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
                                 <i class="fa fa-user-graduate text-white"></i>
@@ -150,7 +148,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="team-item bg-light rounded overflow-hidden h-100">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="{{ asset('img/team-3.jpg') }}" alt="Prof. Manor Singh" style="height: 350px; object-fit: cover;">
+                        <img class="img-fluid w-100" src="<?php echo e(asset('img/team-3.jpg')); ?>" alt="Prof. Manor Singh" style="height: 350px; object-fit: cover;">
                         <div class="position-absolute top-0 end-0 m-3">
                             <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
                                 <i class="fa fa-microscope text-white"></i>
@@ -170,7 +168,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="team-item bg-light rounded overflow-hidden h-100">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="{{ asset('img/team-1.jpg') }}" alt="Prof. Konod Kastallah" style="height: 350px; object-fit: cover;">
+                        <img class="img-fluid w-100" src="<?php echo e(asset('img/team-1.jpg')); ?>" alt="Prof. Konod Kastallah" style="height: 350px; object-fit: cover;">
                         <div class="position-absolute top-0 end-0 m-3">
                             <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
                                 <i class="fa fa-university text-white"></i>
@@ -190,7 +188,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="team-item bg-light rounded overflow-hidden h-100">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="{{ asset('img/team-2.jpg') }}" alt="Prof. Quan Daba Nayakla" style="height: 350px; object-fit: cover;">
+                        <img class="img-fluid w-100" src="<?php echo e(asset('img/team-2.jpg')); ?>" alt="Prof. Quan Daba Nayakla" style="height: 350px; object-fit: cover;">
                         <div class="position-absolute top-0 end-0 m-3">
                             <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
                                 <i class="fa fa-hospital text-white"></i>
@@ -210,7 +208,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="team-item bg-light rounded overflow-hidden h-100">
                     <div class="position-relative">
-                        <img class="img-fluid w-100" src="{{ asset('img/speaker-gupta.png') }}" alt="Prof. Vishal Gupta" style="height: 350px; object-fit: cover;">
+                        <img class="img-fluid w-100" src="<?php echo e(asset('img/speaker-gupta.png')); ?>" alt="Prof. Vishal Gupta" style="height: 350px; object-fit: cover;">
                         <div class="position-absolute top-0 end-0 m-3">
                             <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
                                 <i class="fa fa-syringe text-white"></i>
@@ -412,7 +410,7 @@
                         <h3 class="text-primary mb-2">Best Rapid Fire Presentation Award</h3>
                     </div>
                     <div class="text-center mb-4">
-                        <img class="img-fluid rounded-circle mb-3" src="{{ asset('img/speaker-albloushi.png') }}" alt="Dr. Abdulrahman AlBloushi" style="width: 150px; height: 150px; object-fit: cover;">
+                        <img class="img-fluid rounded-circle mb-3" src="<?php echo e(asset('img/speaker-albloushi.png')); ?>" alt="Dr. Abdulrahman AlBloushi" style="width: 150px; height: 150px; object-fit: cover;">
                         <h4 class="mb-2">Dr. Abdulrahman AlBloushi</h4>
                         <p class="text-primary fw-bold mb-3">IOIS Brazil 2025</p>
                     </div>
@@ -501,7 +499,7 @@
             <h1 class="display-4 text-white mb-4">Interested in Speaking at MEAUS Events?</h1>
             <p class="lead text-white mb-5">Join us in advancing uveitis care through collaboration and knowledge exchange.</p>
             <div class="d-flex flex-wrap justify-content-center gap-3">
-                <a href="{{ route('contact') }}" class="btn btn-light rounded-pill py-3 px-5">
+                <a href="<?php echo e(route('contact')); ?>" class="btn btn-light rounded-pill py-3 px-5">
                     <i class="fa fa-paper-plane me-2"></i>Submit Speaker Proposal
                 </a>
                 <a href="#" class="btn btn-outline-light rounded-pill py-3 px-5">
@@ -515,5 +513,7 @@
     </div>
 </div>
 <!-- Call to Action Section End -->
-@endsection
+<?php $__env->stopSection(); ?>
 
+
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\laragon\www\Meaus-1.0.0\resources\views/pages/speakers-events.blade.php ENDPATH**/ ?>
