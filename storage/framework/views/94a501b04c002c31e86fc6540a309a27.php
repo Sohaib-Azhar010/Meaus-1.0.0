@@ -35,18 +35,23 @@
     <div class="container">
         <div class="row g-3 justify-content-center">
             <div class="col-auto">
-                <a href="#international-speakers" class="btn btn-outline-primary rounded-pill px-4">
-                    <i class="fa fa-microphone-alt me-2"></i>International Speakers
-                </a>
-            </div>
-            <div class="col-auto">
                 <a href="#events-participation" class="btn btn-outline-primary rounded-pill px-4">
                     <i class="fa fa-calendar-alt me-2"></i>Events & Participation
                 </a>
             </div>
             <div class="col-auto">
-                <a href="#achievements" class="btn btn-outline-primary rounded-pill px-4">
-                    <i class="fa fa-trophy me-2"></i>Achievements
+                <a href="#year-2026" class="btn btn-outline-primary rounded-pill px-4">
+                    2026
+                </a>
+            </div>
+            <div class="col-auto">
+                <a href="#year-2025" class="btn btn-outline-primary rounded-pill px-4">
+                    2025
+                </a>
+            </div>
+            <div class="col-auto">
+                <a href="#year-2024" class="btn btn-outline-primary rounded-pill px-4">
+                    2024
                 </a>
             </div>
         </div>
@@ -239,9 +244,10 @@
             <p class="lead">MEAUS's growing presence in international ophthalmology forums.</p>
         </div>
         
-        <!-- Upcoming Event -->
-        <div class="row mb-5">
+        <!-- Year 2026 Section -->
+        <div id="year-2026" class="row mb-5">
             <div class="col-lg-12">
+                <h3 class="mb-4"><i class="fa fa-calendar-check text-primary me-2"></i>2026</h3>
                 <div class="bg-white rounded p-5 shadow-sm border border-primary border-3">
                     <div class="d-flex align-items-center mb-4">
                         <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center me-4" style="width: 80px; height: 80px;">
@@ -296,10 +302,10 @@
             </div>
         </div>
         
-        <!-- Past Events Timeline -->
-        <div class="row">
+        <!-- Year 2025 Section -->
+        <div id="year-2025" class="row mb-5">
             <div class="col-lg-12">
-                <h3 class="mb-4"><i class="fa fa-history text-primary me-2"></i>Past Participations</h3>
+                <h3 class="mb-4"><i class="fa fa-history text-primary me-2"></i>2025</h3>
                 
                 <!-- IOIS Brazil 2025 -->
                 <div class="bg-white rounded p-4 mb-4 shadow-sm">
@@ -354,6 +360,13 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        
+        <!-- Year 2024 Section -->
+        <div id="year-2024" class="row">
+            <div class="col-lg-12">
+                <h3 class="mb-4"><i class="fa fa-history text-primary me-2"></i>2024</h3>
                 
                 <!-- MIOC Muscat 2024 -->
                 <div class="bg-white rounded p-4 mb-4 shadow-sm">
@@ -399,9 +412,9 @@
             <p class="lead">Celebrating milestones in MEAUS's journey.</p>
         </div>
         
-        <div class="row g-5">
+        <div class="row g-5 justify-content-center">
             <!-- Best Rapid Fire Presentation Award -->
-            <div class="col-lg-6">
+            <div class="col-lg-8">
                 <div class="bg-light rounded p-5 h-100 shadow-sm border border-primary border-3">
                     <div class="text-center mb-4">
                         <div class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 100px; height: 100px;">
@@ -423,50 +436,18 @@
                 </div>
             </div>
             
-            <!-- First Executive Committee Meeting -->
-            <div class="col-lg-6">
-                <div class="bg-light rounded p-5 h-100 shadow-sm border border-primary border-3">
-                    <div class="text-center mb-4">
-                        <div class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 100px; height: 100px;">
-                            <i class="fa fa-users fa-4x text-white"></i>
-                        </div>
-                        <h3 class="text-primary mb-2">First Executive Committee In-Person Meeting</h3>
-                    </div>
-                    <div class="mb-4">
-                        <h6 class="mb-2"><i class="fa fa-calendar text-primary me-2"></i>Significance:</h6>
-                        <p class="mb-3">Foundation-setting meeting for newborn society</p>
-                        <h6 class="mb-2"><i class="fa fa-users text-primary me-2"></i>Attendees:</h6>
-                        <p class="mb-3">Founding members from Qatar, KSA, Egypt, Tunisia</p>
-                        <h6 class="mb-2"><i class="fa fa-check-circle text-primary me-2"></i>Outcome:</h6>
-                        <p class="mb-0">Established vision, structure, and upcoming initiatives</p>
-                    </div>
-                </div>
-            </div>
-            
             <!-- International Collaborations -->
             <div class="col-lg-12">
                 <div class="bg-white rounded p-5 shadow-sm">
                     <h3 class="text-primary mb-4"><i class="fa fa-handshake me-2"></i>International Collaborations Established</h3>
-                    <div class="row g-4">
-                        <div class="col-md-4">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
                             <div class="text-center p-4 bg-light rounded">
-                                <i class="fa fa-globe fa-3x text-primary mb-3"></i>
-                                <h5 class="mb-2">EUSG Partnership</h5>
-                                <p class="mb-0 small">Collaborative session at IOIS Brazil</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="text-center p-4 bg-light rounded">
-                                <i class="fa fa-sitemap fa-3x text-primary mb-3"></i>
-                                <h5 class="mb-2">MEACO Integration</h5>
-                                <p class="mb-0 small">Operating under Middle East Africa Council of Ophthalmology</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="text-center p-4 bg-light rounded">
-                                <i class="fa fa-network-wired fa-3x text-primary mb-3"></i>
-                                <h5 class="mb-2">Regional Network</h5>
-                                <p class="mb-0 small">Connecting specialists across Middle Eastern countries</p>
+                                <div class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                                    <i class="fa fa-clock fa-3x text-white"></i>
+                                </div>
+                                <h5 class="mb-2">Coming Soon</h5>
+                                <p class="mb-0 small">More information will be available soon.</p>
                             </div>
                         </div>
                     </div>
