@@ -46,11 +46,6 @@
                     <i class="fa fa-sitemap me-2"></i>Committees
                 </a>
             </div>
-            <div class="col-auto">
-                <a href="#new-members" class="btn btn-outline-primary rounded-pill px-4">
-                    <i class="fa fa-user-plus me-2"></i>New Members
-                </a>
-            </div>
         </div>
     </div>
 </div>
@@ -380,81 +375,6 @@
 </div>
 <!-- Committees Section End -->
 
-<!-- New Members Section Start -->
-<div id="new-members" class="container-fluid py-5">
-    <div class="container">
-        <div class="text-center mx-auto mb-5" style="max-width: 700px;">
-            <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">
-                <i class="fa fa-user-plus me-2"></i>New Members
-            </h5>
-            <h1 class="display-4 mb-3">New Members</h1>
-            <p class="lead">Welcoming recent additions to our leadership team.</p>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="bg-light rounded p-5 shadow-sm border border-primary border-3">
-                    <div class="text-center mb-4">
-                        <div class="position-relative d-inline-block mb-3">
-                            <img class="img-fluid rounded-circle" src="<?php echo e(asset('img/team-1.jpg')); ?>" alt="Dr. Anoud Al-Saati" style="width: 200px; height: 200px; object-fit: cover;">
-                            <div class="position-absolute bottom-0 end-0 bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px; border: 4px solid white;">
-                                <i class="fa fa-user-plus fa-2x text-white"></i>
-                            </div>
-                        </div>
-                        <span class="badge bg-primary fs-6 px-4 py-2 mb-3">
-                            <i class="fa fa-star me-2"></i>New Executive Board Member
-                        </span>
-                        <h2 class="mb-2">Dr. Anoud Al-Saati</h2>
-                        <p class="text-muted mb-4">Recently joined the MEAUS executive board</p>
-                    </div>
-                    <div class="row g-3">
-                        <div class="col-md-6">
-                            <div class="d-flex align-items-start">
-                                <i class="fa fa-lightbulb text-primary me-3 mt-1"></i>
-                                <div>
-                                    <h6 class="mb-1">Fresh Perspective</h6>
-                                    <p class="mb-0 small">Brings new insights and expertise to the team</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="d-flex align-items-start">
-                                <i class="fa fa-chart-line text-primary me-3 mt-1"></i>
-                                <div>
-                                    <h6 class="mb-1">Strategic Development</h6>
-                                    <p class="mb-0 small">Will contribute to MEAUS's growth and vision</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-4 text-center">
-                        <p class="text-muted mb-0"><em>More new members to be announced as MEAUS grows</em></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- New Members Section End -->
-
-<!-- Call to Action Section Start -->
-<div class="container-fluid bg-primary py-5">
-    <div class="container py-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 700px;">
-            <h5 class="d-inline-block text-white text-uppercase border-bottom border-5 mb-3" style="border-color: rgba(256, 256, 256, .3) !important;">Join Our Leadership</h5>
-            <h1 class="display-4 text-white mb-4">Interested in Leadership Roles?</h1>
-            <p class="lead text-white mb-5">MEAUS is growing and welcomes qualified uveitis specialists to contribute to our committees and initiatives.</p>
-            <div class="d-flex flex-wrap justify-content-center gap-3">
-                <a href="<?php echo e(route('contact')); ?>" class="btn btn-light rounded-pill py-3 px-5">
-                    <i class="fa fa-envelope me-2"></i>Contact Us About Opportunities
-                </a>
-                <a href="<?php echo e(route('about')); ?>" class="btn btn-outline-light rounded-pill py-3 px-5">
-                    <i class="fa fa-info-circle me-2"></i>View Membership Benefits
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Call to Action Section End -->
 <?php $__env->stopSection(); ?>
 
 

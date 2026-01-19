@@ -50,7 +50,6 @@
                         <ul class="dropdown-menu m-0" id="leadershipDropdown">
                             <li><a class="dropdown-item" href="{{ route('leadership') }}#executive-board"><i class="fa fa-users-cog text-primary me-2"></i>Executive Board</a></li>
                             <li><a class="dropdown-item" href="{{ route('leadership') }}#committees"><i class="fa fa-sitemap text-primary me-2"></i>Committees</a></li>
-                            <li><a class="dropdown-item" href="{{ route('leadership') }}#new-members"><i class="fa fa-user-plus text-primary me-2"></i>New Members</a></li>
                         </ul>
                     </li>
                     
