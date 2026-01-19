@@ -257,7 +257,7 @@
                         </div>
                         <div>
                             <span class="badge bg-success mb-2">Upcoming Event</span>
-                            <h2 class="mb-1">MEAUS Symposium & Sponsorship Launch 2026</h2>
+                            <h2 class="mb-1">MEAUS Symposium 2026</h2>
                             <p class="text-muted mb-0">Mark your calendars for this landmark event</p>
                         </div>
                     </div>
