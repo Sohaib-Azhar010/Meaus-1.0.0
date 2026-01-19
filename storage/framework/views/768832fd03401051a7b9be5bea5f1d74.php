@@ -1,16 +1,16 @@
-@extends('layouts.app')
 
-@section('title', 'Sponsorship Opportunities - Partner with MEAUS')
-@section('keywords', 'MEAUS sponsorship, uveitis sponsorship, medical conference sponsorship, Doha symposium 2026, partnership opportunities')
-@section('description', 'Explore sponsorship opportunities with MEAUS. Support uveitis advancement in Middle East and Africa. Download our 2026 Doha Symposium sponsorship prospectus.')
 
-@section('content')
+<?php $__env->startSection('title', 'Sponsorship Opportunities - Partner with MEAUS'); ?>
+<?php $__env->startSection('keywords', 'MEAUS sponsorship, uveitis sponsorship, medical conference sponsorship, Doha symposium 2026, partnership opportunities'); ?>
+<?php $__env->startSection('description', 'Explore sponsorship opportunities with MEAUS. Support uveitis advancement in Middle East and Africa. Download our 2026 Doha Symposium sponsorship prospectus.'); ?>
+
+<?php $__env->startSection('content'); ?>
 <!-- Breadcrumb Start -->
 <div class="container-fluid pb-3 pt-3 bg-light" style="margin-top: 0px;">
     <div class="container">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb mb-0">
-                <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
+                <li class="breadcrumb-item"><a href="<?php echo e(route('home')); ?>">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Sponsorship</li>
             </ol>
         </nav>
@@ -19,7 +19,7 @@
 <!-- Breadcrumb End -->
 
 <!-- Page Header/Banner Start -->
-<div class="container-fluid bg-primary py-5 mb-5" style="background: linear-gradient(rgba(29, 42, 77, 0.8), rgba(29, 42, 77, 0.8)), url({{ asset('img/about.png') }}) center center no-repeat; background-size: cover;">
+<div class="container-fluid bg-primary py-5 mb-5" style="background: linear-gradient(rgba(29, 42, 77, 0.8), rgba(29, 42, 77, 0.8)), url(<?php echo e(asset('img/about.png')); ?>) center center no-repeat; background-size: cover;">
     <div class="container py-5">
         <div class="row justify-content-center text-center">
             <div class="col-lg-10">
@@ -54,7 +54,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="position-relative h-100" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100 rounded" src="{{ asset('img/about.png') }}" alt="MEAUS Partnership" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded" src="<?php echo e(asset('img/about.png')); ?>" alt="MEAUS Partnership" style="object-fit: cover;">
                 </div>
             </div>
         </div>
@@ -225,7 +225,7 @@
                         <a href="#" class="btn btn-primary btn-lg rounded-pill px-5 py-3">
                             <i class="fa fa-download me-2"></i>Download Sponsorship Prospectus (PDF)
                         </a>
-                        <a href="{{ route('speakers-events') }}#events-participation" class="btn btn-outline-primary btn-lg rounded-pill px-5 py-3">
+                        <a href="<?php echo e(route('speakers-events')); ?>#events-participation" class="btn btn-outline-primary btn-lg rounded-pill px-5 py-3">
                             <i class="fa fa-calendar me-2"></i>View Event Details
                         </a>
                     </div>
@@ -432,7 +432,7 @@
             </div>
         </div>
         <div class="text-center mt-5">
-            <a href="{{ route('contact') }}" class="btn btn-light btn-lg rounded-pill px-5 py-3 me-3">
+            <a href="<?php echo e(route('contact')); ?>" class="btn btn-light btn-lg rounded-pill px-5 py-3 me-3">
                 <i class="fa fa-paper-plane me-2"></i>Contact for Membership
             </a>
             <a href="#" class="btn btn-outline-light btn-lg rounded-pill px-5 py-3">
@@ -442,5 +442,7 @@
     </div>
 </div>
 <!-- Contact for Sponsorship Section End -->
-@endsection
+<?php $__env->stopSection(); ?>
 
+
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\laragon\www\Meaus-1.0.0\resources\views/pages/sponsorship.blade.php ENDPATH**/ ?>
