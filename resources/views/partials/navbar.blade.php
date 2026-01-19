@@ -93,6 +93,7 @@
                         <ul class="dropdown-menu m-0" id="mediaDropdown">
                             <li><a class="dropdown-item" href="{{ route('media') }}#news-updates"><i class="fa fa-newspaper text-primary me-2"></i>News & Updates</a></li>
                             <li><a class="dropdown-item" href="{{ route('media') }}#gallery"><i class="fa fa-images text-primary me-2"></i>Gallery</a></li>
+                            <li><a class="dropdown-item" href="https://www.instagram.com/meausofficial/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram text-primary me-2"></i>Instagram</a></li>
                         </ul>
                     </li>
                     
