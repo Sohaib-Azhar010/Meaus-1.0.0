@@ -1,16 +1,16 @@
-@extends('layouts.app')
 
-@section('title', 'Leadership - MEAUS Executive Board & Committees')
-@section('keywords', 'MEAUS leadership, executive board, committees, uveitis specialists, ophthalmology leadership')
-@section('description', 'Meet the MEAUS leadership team: Executive Board, Committees, and new members guiding uveitis advancement in Middle East and Africa.')
 
-@section('content')
+<?php $__env->startSection('title', 'Leadership - MEAUS Executive Board & Committees'); ?>
+<?php $__env->startSection('keywords', 'MEAUS leadership, executive board, committees, uveitis specialists, ophthalmology leadership'); ?>
+<?php $__env->startSection('description', 'Meet the MEAUS leadership team: Executive Board, Committees, and new members guiding uveitis advancement in Middle East and Africa.'); ?>
+
+<?php $__env->startSection('content'); ?>
 <!-- Breadcrumb Start -->
 <div class="container-fluid pb-3 pt-3 bg-light" style="margin-top: 0px;">
     <div class="container">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb mb-0">
-                <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
+                <li class="breadcrumb-item"><a href="<?php echo e(route('home')); ?>">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Leadership</li>
             </ol>
         </nav>
@@ -19,7 +19,7 @@
 <!-- Breadcrumb End -->
 
 <!-- Page Header/Banner Start -->
-<div class="container-fluid bg-primary py-5 mb-5" style="background: linear-gradient(rgba(29, 42, 77, 0.8), rgba(29, 42, 77, 0.8)), url({{ asset('img/about.png') }}) center center no-repeat; background-size: cover;">
+<div class="container-fluid bg-primary py-5 mb-5" style="background: linear-gradient(rgba(29, 42, 77, 0.8), rgba(29, 42, 77, 0.8)), url(<?php echo e(asset('img/about.png')); ?>) center center no-repeat; background-size: cover;">
     <div class="container py-5">
         <div class="row justify-content-center text-center">
             <div class="col-lg-10">
@@ -72,7 +72,7 @@
                 <div class="team-item bg-light rounded overflow-hidden h-100">
                     <div class="row g-0 h-100">
                         <div class="col-12 col-sm-5 d-flex">
-                            <img class="img-fluid w-100" src="{{ asset('img/team-1.jpg') }}" alt="Prof. Khalid Tabbara" style="object-fit: cover;">
+                            <img class="img-fluid w-100" src="<?php echo e(asset('img/team-1.jpg')); ?>" alt="Prof. Khalid Tabbara" style="object-fit: cover;">
                         </div>
                         <div class="col-12 col-sm-7 d-flex">
                             <div class="p-4 w-100 h-100 d-flex flex-column">
@@ -90,7 +90,7 @@
                                     </ul>
                                 </div>
                                 <div class="mt-auto">
-                                    <a href="{{ route('about') }}#founders-section" class="btn btn-sm btn-primary rounded-pill">
+                                    <a href="<?php echo e(route('about')); ?>#founders-section" class="btn btn-sm btn-primary rounded-pill">
                                         <i class="fa fa-info-circle me-1"></i>Learn More
                                     </a>
                                 </div>
@@ -105,7 +105,7 @@
                 <div class="team-item bg-light rounded overflow-hidden h-100">
                     <div class="row g-0 h-100">
                         <div class="col-12 col-sm-5 d-flex">
-                            <img class="img-fluid w-100" src="{{ asset('img/team-2.jpg') }}" alt="Prof. Moncef Khairallah" style="object-fit: cover;">
+                            <img class="img-fluid w-100" src="<?php echo e(asset('img/team-2.jpg')); ?>" alt="Prof. Moncef Khairallah" style="object-fit: cover;">
                         </div>
                         <div class="col-12 col-sm-7 d-flex">
                             <div class="p-4 w-100 h-100 d-flex flex-column">
@@ -124,7 +124,7 @@
                                     </ul>
                                 </div>
                                 <div class="mt-auto">
-                                    <a href="{{ route('about') }}#founders-section" class="btn btn-sm btn-primary rounded-pill">
+                                    <a href="<?php echo e(route('about')); ?>#founders-section" class="btn btn-sm btn-primary rounded-pill">
                                         <i class="fa fa-info-circle me-1"></i>Learn More
                                     </a>
                                 </div>
@@ -139,7 +139,7 @@
                 <div class="team-item bg-light rounded overflow-hidden h-100">
                     <div class="row g-0 h-100">
                         <div class="col-12 col-sm-5 d-flex">
-                            <img class="img-fluid w-100" src="{{ asset('img/speaker-aldhibi.png') }}" alt="Prof. Hassan Al-Dhibi" style="object-fit: cover;">
+                            <img class="img-fluid w-100" src="<?php echo e(asset('img/speaker-aldhibi.png')); ?>" alt="Prof. Hassan Al-Dhibi" style="object-fit: cover;">
                         </div>
                         <div class="col-12 col-sm-7 d-flex">
                             <div class="p-4 w-100 h-100 d-flex flex-column">
@@ -158,7 +158,7 @@
                                     </ul>
                                 </div>
                                 <div class="mt-auto">
-                                    <a href="{{ route('about') }}#founders-section" class="btn btn-sm btn-primary rounded-pill">
+                                    <a href="<?php echo e(route('about')); ?>#founders-section" class="btn btn-sm btn-primary rounded-pill">
                                         <i class="fa fa-info-circle me-1"></i>Learn More
                                     </a>
                                 </div>
@@ -173,7 +173,7 @@
                 <div class="team-item bg-light rounded overflow-hidden h-100">
                     <div class="row g-0 h-100">
                         <div class="col-12 col-sm-5 d-flex">
-                            <img class="img-fluid w-100" src="{{ asset('img/team-3.jpg') }}" alt="Dr. Zamzam Al-Baker" style="object-fit: cover;">
+                            <img class="img-fluid w-100" src="<?php echo e(asset('img/team-3.jpg')); ?>" alt="Dr. Zamzam Al-Baker" style="object-fit: cover;">
                         </div>
                         <div class="col-12 col-sm-7 d-flex">
                             <div class="p-4 w-100 h-100 d-flex flex-column">
@@ -192,7 +192,7 @@
                                     </ul>
                                 </div>
                                 <div class="mt-auto">
-                                    <a href="{{ route('about') }}#founders-section" class="btn btn-sm btn-primary rounded-pill">
+                                    <a href="<?php echo e(route('about')); ?>#founders-section" class="btn btn-sm btn-primary rounded-pill">
                                         <i class="fa fa-info-circle me-1"></i>Learn More
                                     </a>
                                 </div>
@@ -226,7 +226,7 @@
                                     </ul>
                                 </div>
                                 <div class="mt-auto">
-                                    <a href="{{ route('about') }}#founders-section" class="btn btn-sm btn-primary rounded-pill">
+                                    <a href="<?php echo e(route('about')); ?>#founders-section" class="btn btn-sm btn-primary rounded-pill">
                                         <i class="fa fa-info-circle me-1"></i>Learn More
                                     </a>
                                 </div>
@@ -272,7 +272,7 @@
                                     <i class="fa fa-user-tie me-2"></i>Chair
                                 </h4>
                                 <div class="d-flex align-items-start mb-4">
-                                    <img class="img-fluid rounded-circle me-3" src="{{ asset('img/team-1.jpg') }}" alt="Dr. Rola Hamam" style="width: 80px; height: 80px; object-fit: cover;">
+                                    <img class="img-fluid rounded-circle me-3" src="<?php echo e(asset('img/team-1.jpg')); ?>" alt="Dr. Rola Hamam" style="width: 80px; height: 80px; object-fit: cover;">
                                     <div>
                                         <h5 class="mb-1">Dr. Rola Hamam</h5>
                                         <p class="text-muted mb-2 small">Scientific Committee Chair</p>
@@ -292,7 +292,7 @@
                                 <div class="row g-3">
                                     <div class="col-12">
                                         <div class="d-flex align-items-center">
-                                            <img class="img-fluid rounded-circle me-3" src="{{ asset('img/team-2.jpg') }}" alt="Dr. Dina Baddar" style="width: 60px; height: 60px; object-fit: cover;">
+                                            <img class="img-fluid rounded-circle me-3" src="<?php echo e(asset('img/team-2.jpg')); ?>" alt="Dr. Dina Baddar" style="width: 60px; height: 60px; object-fit: cover;">
                                             <div>
                                                 <h6 class="mb-0">Dr. Dina Baddar</h6>
                                                 <small class="text-muted">Egypt - Scientific Committee Chair</small>
@@ -301,7 +301,7 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="d-flex align-items-center">
-                                            <img class="img-fluid rounded-circle me-3" src="{{ asset('img/speaker-albloushi.png') }}" alt="Dr. Abdulrahman AlBloushi" style="width: 60px; height: 60px; object-fit: cover;">
+                                            <img class="img-fluid rounded-circle me-3" src="<?php echo e(asset('img/speaker-albloushi.png')); ?>" alt="Dr. Abdulrahman AlBloushi" style="width: 60px; height: 60px; object-fit: cover;">
                                             <div>
                                                 <h6 class="mb-0">Dr. Abdulrahman AlBloushi</h6>
                                                 <small class="text-muted">KSA - Award-winning specialist</small>
@@ -310,7 +310,7 @@
                                     </div>
                                     <div class="col-12">
                                         <div class="d-flex align-items-center">
-                                            <img class="img-fluid rounded-circle me-3" src="{{ asset('img/team-3.jpg') }}" alt="Dr. Sana Khochtali" style="width: 60px; height: 60px; object-fit: cover;">
+                                            <img class="img-fluid rounded-circle me-3" src="<?php echo e(asset('img/team-3.jpg')); ?>" alt="Dr. Sana Khochtali" style="width: 60px; height: 60px; object-fit: cover;">
                                             <div>
                                                 <h6 class="mb-0">Dr. Sana Khochtali</h6>
                                                 <small class="text-muted">Tunisia - Scientific Committee Member</small>
@@ -346,7 +346,7 @@
                                     <i class="fa fa-user-tie me-2"></i>Chair
                                 </h4>
                                 <div class="d-flex align-items-start mb-4">
-                                    <img class="img-fluid rounded-circle me-3" src="{{ asset('img/team-1.jpg') }}" alt="Sheikha Dr. Noura Al Qassimi" style="width: 80px; height: 80px; object-fit: cover;">
+                                    <img class="img-fluid rounded-circle me-3" src="<?php echo e(asset('img/team-1.jpg')); ?>" alt="Sheikha Dr. Noura Al Qassimi" style="width: 80px; height: 80px; object-fit: cover;">
                                     <div>
                                         <h5 class="mb-1">Sheikha Dr. Noura Al Qassimi</h5>
                                         <p class="text-muted mb-2 small">Communication & PR Chair</p>
@@ -364,7 +364,7 @@
                                     <i class="fa fa-users me-2"></i>Member
                                 </h4>
                                 <div class="d-flex align-items-center">
-                                    <img class="img-fluid rounded-circle me-3" src="{{ asset('img/team-2.jpg') }}" alt="Dr. Naila Al Harthi" style="width: 80px; height: 80px; object-fit: cover;">
+                                    <img class="img-fluid rounded-circle me-3" src="<?php echo e(asset('img/team-2.jpg')); ?>" alt="Dr. Naila Al Harthi" style="width: 80px; height: 80px; object-fit: cover;">
                                     <div>
                                         <h5 class="mb-1">Dr. Naila Al Harthi</h5>
                                         <p class="text-muted mb-0 small">Communication & PR Member</p>
@@ -395,7 +395,7 @@
                 <div class="bg-light rounded p-5 shadow-sm border border-primary border-3">
                     <div class="text-center mb-4">
                         <div class="position-relative d-inline-block mb-3">
-                            <img class="img-fluid rounded-circle" src="{{ asset('img/team-1.jpg') }}" alt="Dr. Anoud Al-Saati" style="width: 200px; height: 200px; object-fit: cover;">
+                            <img class="img-fluid rounded-circle" src="<?php echo e(asset('img/team-1.jpg')); ?>" alt="Dr. Anoud Al-Saati" style="width: 200px; height: 200px; object-fit: cover;">
                             <div class="position-absolute bottom-0 end-0 bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px; border: 4px solid white;">
                                 <i class="fa fa-user-plus fa-2x text-white"></i>
                             </div>
@@ -444,10 +444,10 @@
             <h1 class="display-4 text-white mb-4">Interested in Leadership Roles?</h1>
             <p class="lead text-white mb-5">MEAUS is growing and welcomes qualified uveitis specialists to contribute to our committees and initiatives.</p>
             <div class="d-flex flex-wrap justify-content-center gap-3">
-                <a href="{{ route('contact') }}" class="btn btn-light rounded-pill py-3 px-5">
+                <a href="<?php echo e(route('contact')); ?>" class="btn btn-light rounded-pill py-3 px-5">
                     <i class="fa fa-envelope me-2"></i>Contact Us About Opportunities
                 </a>
-                <a href="{{ route('about') }}" class="btn btn-outline-light rounded-pill py-3 px-5">
+                <a href="<?php echo e(route('about')); ?>" class="btn btn-outline-light rounded-pill py-3 px-5">
                     <i class="fa fa-info-circle me-2"></i>View Membership Benefits
                 </a>
             </div>
@@ -455,5 +455,7 @@
     </div>
 </div>
 <!-- Call to Action Section End -->
-@endsection
+<?php $__env->stopSection(); ?>
 
+
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\laragon\www\Meaus-1.0.0\resources\views/pages/leadership.blade.php ENDPATH**/ ?>
